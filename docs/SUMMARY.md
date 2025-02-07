@@ -12,7 +12,10 @@
 
 ## Components
 
-* [Backbone](components/backbone.md)
-* [Cluster](components/cluster.md)
+* [Backbone](components/backbone/README.md)
+  * [Overview](components/backbone/overview.md)
+* [Cluster](components/cluster/README.md)
+  * [Overview](components/cluster/overview.md)
 * [VPN](components/vpn/README.md)
+  * [Overview](components/vpn/overview.md)
   * [Twingate](components/vpn/twingate.md)
