@@ -19,3 +19,10 @@
 * [VPN](components/vpn/README.md)
   * [Overview](components/vpn/overview.md)
   * [Twingate](components/vpn/twingate.md)
+
+## CLI
+
+* [Installation](cli/installation.md)
+* [Authentification](cli/authentification.md)
+* [Backbone](cli/backbone.md)
+* [Cluster](cli/cluster.md)
