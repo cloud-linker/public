@@ -4,7 +4,7 @@ CloudLinker uses **OAuth authentication via SSO** to securely authenticate users
 
 ### **Prerequisites**
 
-* Ensure you have the **CloudLinker CLI (`clctl`)** installed. Installation Guide →
+* Ensure you have the **CloudLinker CLI (`clctl`)** installed. [Installation Guide →](../../introduction/getting-started/)
 * Have an active **CloudLinker account**.
 
 ### **Step 1: Run the Login Command**
@@ -12,7 +12,7 @@ CloudLinker uses **OAuth authentication via SSO** to securely authenticate users
 To authenticate with CloudLinker, run:
 
 ```sh
-shCopierModifierclctl auth login
+clctl auth login
 ```
 
 This will open your **default web browser** and redirect you to the CloudLinker **SSO authentication page**.
@@ -30,7 +30,7 @@ After a successful login, you can close the browser window and return to the CLI
 To check if you are logged in, run:
 
 ```sh
-shCopierModifierclctl auth login
+clctl auth login
 ```
 
 If you are already authenticated, the CLI will confirm your login status. Otherwise, it will prompt you to log in again.
@@ -40,7 +40,7 @@ If you are already authenticated, the CLI will confirm your login status. Otherw
 To log out and remove your authentication session, run:
 
 ```sh
-shCopierModifierclctl auth logout
+clctl auth logout
 ```
 
 This will clear your session from the **local keychain**, requiring you to log in again the next time you use the CLI.
