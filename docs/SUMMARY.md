@@ -24,5 +24,6 @@
 
 * [Installation](cli/installation.md)
 * [Authentification](cli/authentification.md)
-* [Backbone](cli/backbone.md)
+* [Backbone](cli/backbone/README.md)
+  * [Configuration Reference](cli/backbone/configuration-reference.md)
 * [Cluster](cli/cluster.md)
