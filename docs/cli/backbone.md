@@ -2,7 +2,7 @@
 
 ### Description
 
-The `clctl backbone create` command allows you to create a new **Backbone**, which serves as the foundation for deploying private Kubernetes clusters. Each Backbone includes network and VPN configurations.
+The `clctl backbone` command group allows you to manage **Backbones**, which serves as the foundation for deploying private Kubernetes clusters. Each Backbone includes network and VPN configurations.
 
 ### Prerequisites
 
@@ -13,17 +13,11 @@ Ensure that your configuration file includes at least one VPN provider and one c
 ### Usage
 
 ```
-clctl backbone create --config <config-file>
-clctl backbone create -c <config-file>
+clctl backbone <command> 
+clctl backbone <command>
 ```
 
-#### Required Arguments
-
-| Argument                     | Description                                                |
-| ---------------------------- | ---------------------------------------------------------- |
-| `--config, -c <config-file>` | Path to a JSON file containing the Backbone configuration. |
-
-#### Example
+#### Example commands
 
 ```
 clctl backbone create --config gcp-backbone.json
@@ -57,19 +51,11 @@ The configuration must be provided in JSON format. Below is an example of a **GC
 
 ### Supported Providers
 
-Currently, the following cloud providers are supported:
-
-* **Google Cloud (GCP)**
-* **Amazon Web Services (AWS)**
-* **Microsoft Azure**
-
-Future support will extend to **K3s**, enabling deployments on any infrastructure.
+You can find the list of supported providers [here](../components/providers/).
 
 ### Command Behavior
 
 * **Validation:** No validation checks (e.g., CIDR range overlap) are enforced yet. Ensure your network configuration is correct before deploying.
-* **Output:**
-  * Errors if the configuration file is missing or incorrect.
 
 ### Notes
 
@@ -78,5 +64,6 @@ Future support will extend to **K3s**, enabling deployments on any infrastructur
 
 ### Next Steps
 
+* To create a new backbone, refer to the [create.md](backbone/create.md "mention") command reference
 * To list all backbones, use `clctl backbone list`.
 * To modify an existing backbone, use `clctl backbone edit`.

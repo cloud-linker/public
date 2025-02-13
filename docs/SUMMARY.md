@@ -12,6 +12,9 @@
 
 ## Components
 
+* [Providers](components/providers/README.md)
+  * [Public Cloud](components/providers/public-cloud.md)
+  * [VPN](components/providers/vpn.md)
 * [Backbone](components/backbone/README.md)
   * [Overview](components/backbone/overview.md)
 * [Cluster](components/cluster/README.md)
@@ -24,6 +27,9 @@
 
 * [Installation](cli/installation.md)
 * [Authentification](cli/authentification.md)
-* [Backbone](cli/backbone/README.md)
+* [Backbone](cli/backbone.md)
   * [Configuration Reference](cli/backbone/configuration-reference.md)
+  * [create](cli/backbone/create.md)
+  * [list](cli/backbone/list.md)
+  * [delete](cli/backbone/delete.md)
 * [Cluster](cli/cluster.md)
