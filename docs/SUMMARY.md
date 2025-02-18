@@ -22,6 +22,20 @@
 * [VPN](components/vpn/README.md)
   * [Overview](components/vpn/overview.md)
   * [Twingate](components/vpn/twingate.md)
+* [Tooling](components/tooling/README.md)
+  * [Supported Tools](components/tooling/supported-tools.md)
+  * [Configuration reference](components/tooling/configuration-reference.md)
+  * [Networking](components/tooling/networking/README.md)
+    * [NGINX Ingress Controller](components/tooling/networking/nginx-ingress-controller/README.md)
+      * [Configuration Reference](components/tooling/networking/nginx-ingress-controller/configuration-reference.md)
+  * [Security](components/tooling/security/README.md)
+    * [Certificate Manager](components/tooling/security/certificate-manager/README.md)
+      * [Configuration Reference](components/tooling/security/certificate-manager/configuration-reference.md)
+  * [Monitoring & Observability](components/tooling/monitoring-and-observability/README.md)
+    * [SigNoz](components/tooling/monitoring-and-observability/signoz/README.md)
+      * [Configuration Reference](components/tooling/monitoring-and-observability/signoz/configuration-reference.md)
+  * [Workspace Tools](components/tooling/workspace-tools.md)
+* [Domains](components/domains.md)
 
 ## CLI
 
